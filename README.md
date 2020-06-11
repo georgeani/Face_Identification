@@ -14,4 +14,5 @@ Please note that special directories must be used in order to use face_identific
 these are the dataset and trainer directories. Which can also be created by using the
 package_creator.py. Due to the nature of the system all the information is saved persistently
 and is not hardcoded in the Python Scripts, except from the names created in order to make
-face_identification.py work.
+face_identification.py work. haarscade_frontalface_default.xml is used in order to detect faces
+and it was taken from the OpenCV distro.
